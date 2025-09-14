@@ -1,11 +1,12 @@
-# PVPokeLossBot
+# PogoPVPLossBot
 
+Based on ![CodeWithMa bot](https://github.com/CodeWithMa/PVPokeLossBot) since it doesn't look maintained anymore
 This only works on android. It uses [adb](https://developer.android.com/tools/adb) to connect to your phone.
 
 
 ## Summary
 
-PVPokeLossBot is a bot designed for the PVP mode of the mobile game Pokemon Go.
+PogoPVPLossBot is a bot designed for the PVP mode of the mobile game Pokemon Go.
 Using computer vision, the bot analyzes screenshots of the game and makes decisions on which actions to perform, such as sending `adb tap` commands to the game.
 The bot also has a built-in timer that automatically forfeits the game after a certain period of time.
 
@@ -13,7 +14,7 @@ The bot also has a built-in timer that automatically forfeits the game after a c
 
 ## Installation
 
-To use PVPokeLossBot, you will first need to install the required dependencies.
+To use PogoPVPLossBot, you will first need to install the required dependencies.
 
 ### Create and Activate a Virtual Environment
 
@@ -154,7 +155,7 @@ Change 3.0 to any number of seconds you want (e.g., 5.0 for 5 seconds, 1.5 for 1
 
 Stuck after claiming Encounter reward since the bot is not made to catch pokemon
 
-## The Secret to Farming Stardust in Pokemon Go: PVPokeLossBot's Elo Drop Strategy
+## The Secret to Farming Stardust in Pokemon Go: PogoPVPLossBot's Elo Drop Strategy
 
 "Elo" is a ranking system used in competitive games such as Pokemon Go PVP to match players of similar skill levels against each other.
 By using PVPokeLossBot, the bot will forfeit the game on purpose, which will cause the user's Elo to drop lower and lower.
